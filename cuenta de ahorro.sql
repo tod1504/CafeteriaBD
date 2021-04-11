@@ -31,3 +31,14 @@ CREATE TABLE IF NOT EXISTS `movimientos` (
 INSERT INTO `movimientos` (`FechaMov`, `TipoMov`, `Cantidad`, `NumeroDeCuenta`) VALUES
 	('2010-10-10', 'Deposito', 2000, 1545);
 /*!40000 ALTER TABLE `movimientos` ENABLE KEYS */;
+
+-- El Kevin me pidio que ingresara 3 registros asi como niño bueno lo hice
+INSERT INTO Clientes
+VALUES (1545, 'Pedro Vasquez', 2000, 4000),
+	(1457, 'Juan Lopez', 3000, 2800),
+	(4759, 'Perla Ruiz', 6890, 7100);
+	
+INSERT INTO Movimientos
+VALUES ('2020-10-10', 'Deposito', 2000, 1545),
+	('2021-02-10', 'Retiro', 200, 1457),
+	('2020-07-11', 'Deposito', 210, 4759);
