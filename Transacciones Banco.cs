@@ -1,5 +1,6 @@
 
 /*Transaccion para la ventana de retiro
+Se pone dentro del boton
 */
 int monto;
 string Fecha = System.DateTime.Now.ToString("yyy/MM/dd");
@@ -55,6 +56,7 @@ using (MySqlConnection conn = new MySqlConnection(cadenaConex))
 
 
 /*Transaccion para la ventana de deposito
+se pone dentro del boton
 */
 int monto;
 monto = Convert.ToInt32(txt_deposito.Text);
